@@ -1,0 +1,109 @@
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.HeadTitleTxt {
+    font-family: arial;
+}
+
+.maindescriptioncontainer {
+    width: 285px;
+    text-align: left;
+}
+
+.main,
+.top {
+    background-color: yellow;
+    padding: 20px;
+    border-style: solid;
+}
+
+.top {
+    margin-top: 20px;
+}
+
+#input {
+    width: 200px;
+    height: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: gray;
+}
+
+#input:focus {
+    outline: none;
+}
+
+#enter {
+    width: 70px;
+    height: 20px;
+    background-color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-color: gray;
+    font-family: arial;
+    user-select: none;
+}
+
+#enter:active {
+    background-color: lightgray;
+    border-color: rgb(191, 191, 191);
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#display {
+    resize: vertical;
+    width: 285px;
+    height: 100px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: gray;
+    min-height: 100px;
+}
+
+#copy {
+    width: 90px;
+    height: 30px;
+    background-color: white;
+    border-style: solid;
+    border-width: 3px;
+    border-color: gray;
+}
+
+#copy:active {
+    background-color: aliceblue;
+    border-color: rgb(191, 191, 191);
+}
+
+.copyarea {
+    width: 285px;
+    text-align: left;
+}
+
+#display:focus {
+    outline: none;
+}
+
+.footer {
+    position: fixed;
+    background-color: aliceblue;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 35px;
+    font-family: arial;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
