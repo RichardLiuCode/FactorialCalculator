@@ -1,5 +1,5 @@
 document.getElementById("enter").addEventListener("click", function () {
-    fetch("https://573f616c-2f33-4a25-8dd3-eab903401ca9-00-15qkzj0ppjof8.spock.replit.dev/calc?q=" + document.getElementById("input").value)
+    fetch("https://factorial-api.onrender.com/calc?q=" + document.getElementById("input").value)
         .then(function (response) {
             var type = response.headers.get("Content-Type")
             if (type.includes("application/json")) {
